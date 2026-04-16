@@ -54,6 +54,20 @@ Authored a comprehensive 1500+ word technical blog breaking down the core archit
 * **NLP / Deep Learning:** `torch`, `transformers`, `datasets`, `evaluate`, `seqeval`, `spacy`
 * **GenAI:** `langchain`, `langchain-core`, `langchain-huggingface`
 
+
+
+
+### 5. AI Resume Screening System with Tracing (LangChain & LangSmith)
+**Folder/File:** `Task3_Resume_Screener.ipynb`
+
+Designed a production-level AI recruitment pipeline to extract, match, and score candidate resumes against specific Job Descriptions.
+
+* **Frameworks:** `langchain`, `langsmith`, `huggingface`
+* **Key Implementations:**
+    * **Modular LCEL Pipelines:** Built decoupled `extraction_chain` and `scoring_chain` architectures using LangChain Expression Language.
+    * **Prompt Engineering:** Enforced strict LLM guardrails ("Do NOT assume skills not present") to eliminate hallucination during candidate evaluation.
+    * **System Tracing & Debugging:** Integrated LangSmith for full pipeline observability. Utilized LangSmith tags and the Playground UI to debug prompt logic, track LLM latency, and monitor token usage across Strong, Average, and Weak candidate testing.
+
 ## 👤 Author
 **[Your Name]** | Data Science Intern @ Innomatics Research Labs  
 [LinkedIn Profile Link] | [GitHub Profile Link]
