@@ -69,5 +69,5 @@ Designed a production-level AI recruitment pipeline to extract, match, and score
     * **System Tracing & Debugging:** Integrated LangSmith for full pipeline observability. Utilized LangSmith tags and the Playground UI to debug prompt logic, track LLM latency, and monitor token usage across Strong, Average, and Weak candidate testing.
 
 ## 👤 Author
-**[Your Name]** | Data Science Intern @ Innomatics Research Labs  
-[LinkedIn Profile Link] | [GitHub Profile Link]
+**Bhuvaneshwari Rebba_IN226026002** | Data Science Intern @ Innomatics Research Labs  
+
